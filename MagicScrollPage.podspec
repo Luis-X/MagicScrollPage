@@ -7,8 +7,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "LuisX"
   s.source       = { :git => "https://github.com/Luis-X/MagicScrollPage.git", :tag => "#{s.version}" }
-  s.source_files = "MagicScrollPage/MagicScrollPage/**/*.{h,m}"
+  s.source_files = "MagicScrollPageExample/MagicScrollPage/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "MJRefresh", "~> 3.1.12"
+  s.dependency "Masonry", "~> 1.0.1"
   s.ios.deployment_target = '7.0'
 end
